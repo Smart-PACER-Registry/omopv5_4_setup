@@ -13,6 +13,7 @@ psql -h localhost -p <port> -U postgres -W -d <database> -f CommonDataModel/OMOP
   psql -h localhost -p <port> -U postgres -W -d <database> -f CommonDataModel-5.4.0/inst/ddl/5.4/postgresql/<ddl_files>
 6. Run DDLs for f_observation_view, f_immunizqtion_view, and f_person
   omoponfhir_f_person_ddl.txt
+  observation_column_size_change_ddl.txt
   omoponfhir_v5.4_f_observation_view_ddl.txt
   omoponfhir_v5.2_f_immunization_view_ddl.txt
 7. Load vocabularies downloaded from Athena.
